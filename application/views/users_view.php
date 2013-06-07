@@ -125,7 +125,7 @@
 					&lt;div class="grid"&gt; 
 						<br>
 						<span class="tab1">
-							&lt;table id="user" class="grid" action="<?php echo base_url();?>users/ajaxGetUsers" dir="ltr"&gt;	
+							&lt;table id="user" action="<?php echo base_url();?>users/ajaxGetUsers" dir="ltr"&gt;	
 						</span>															
 						
 						<br>				
