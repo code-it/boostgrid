@@ -98,75 +98,39 @@ h3.title
     margin: 20px 0;
   }
 
-/* ----------------------------------------------------------------------------------------------------------
-4) body
----------------------------------------------------------------------------------------------------------- */
-.user_form
+
+.code
 {
-	margin-left:20%;
+	background-color:#F2F2F2;	
+	border:2px solid #e2e2e2;
+	border-radius:10px;
+	font-size: 14px;
+	padding:10px;
+	overflow: auto;
+	white-space: nowrap;
 }
 
-.user_form table td
+.code .comment
 {
-	padding:5px;
+	color:green;
 }
 
-.control_button
+.code .tab1
 {
-	padding-left:20%;
+	padding-left:50px;
 }
 
-.user_form span
+.code .tab2
 {
-	font-size: small;
+	padding-left:100px;
 }
 
-
-
-/* ----------------------------------------------------------------------------------------------------------
-5) Signin
----------------------------------------------------------------------------------------------------------- */
-.login_slogan
+.code .tab3
 {
-	max-width: 320px;
-    margin: 0 auto 20px;    
-    color: #ffffff;
-    font-size:26px;
-    font-weight: bold;
-    padding-top:20px;
+	padding-left:150px;
 }
 
-.login_slogan img
+.code .smaller-font
 {
-	height:150px;
-	margin-left:90px;
+
 }
-
-
-.form-signin {
-    max-width: 300px;
-    padding: 19px 29px 29px;
-    margin: 0 auto 20px;
-    background-color: #fff;
-    border: 1px solid #e5e5e5;
-    -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-    border-radius: 5px;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-    box-shadow: 0 1px 2px rgba(0,0,0,.05);
-}
-.form-signin .form-signin-heading, .form-signin .checkbox {
-    margin-bottom: 10px;
-}
-.form-signin input[type="text"],
-.form-signin input[type="password"] {
-    font-size: 16px;
-    height: auto;
-    margin-bottom: 15px;
-    padding: 7px 9px;
-}
-
-
-
-

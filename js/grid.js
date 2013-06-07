@@ -116,7 +116,8 @@ function gridRenderWithOption(grid_id , option)
  */
 function gridAjaxRender(grid_id , ajax_url , option)
 {				
-		
+	
+	
 	$.ajax({
 			  type: "POST",
 			  url: ajax_url,			   
@@ -427,7 +428,7 @@ function gridAddControlBar(grid_id , option , data)
 		var $grid = $("#grid_bar").remove();
 		
 		//reach grid table
-		var $grid =  $('#'+grid_id);
+		var $grid =  $(".grid");
 		
 		//control bar
 		var bar = "";
